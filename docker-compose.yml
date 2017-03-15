@@ -4,5 +4,7 @@ services:
     image: plantuml:8057
     image: plantuml:latest
     build: .
+    environment:
+      - LC_ALL=en_US.UTF-8
     ports:
       - 8080:8080
