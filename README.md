@@ -4,8 +4,8 @@ http://plantuml.com/
 
 ## Dev
 ```
-dc build
-dc up
+docker-compose build
+docker-compose up
 ```
 
 ## Check
