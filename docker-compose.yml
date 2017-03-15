@@ -1,8 +1,8 @@
 version: '3'
 services:
   app:
-    image: plantuml:8057
-    image: plantuml:latest
+    image: felix/plantuml-server:8057
+    image: felix/plantuml-server:latest
     build: .
     environment:
       - LC_ALL=en_US.UTF-8
